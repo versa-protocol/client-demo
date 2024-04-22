@@ -1,0 +1,15 @@
+/target
+.env
+sdk/types.ts
+dist
+scripts/open-ai
+
+.DS_Store
+
+alt.env
+
+# production dump files
+pscale_dump_prod_main
+
+# shared types bindings
+ds-types/bindings

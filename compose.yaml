@@ -1,0 +1,10 @@
+services:
+  sender:
+    build: ./docker/sender
+    ports:
+      - "8000:5000"
+  receiver:
+    build: ./docker/receiver
+    ports:
+      - "8000:5001"
+
